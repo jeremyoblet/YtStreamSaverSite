@@ -1,0 +1,161 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1d1d1d;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background: #1d1d1d;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.stats, .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    text-align: center;
+    border: 1px solid #4CAF50;
+}
+
+.impact {
+    background: #336b4d;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.bar-graph {
+    margin-top: 50px;
+    padding: 20px;
+    background: #2d2d2d;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #4CAF50;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 20px;
+    gap: 30px;
+}
+  
+.bar {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+}
+  
+.bar-1080p {
+  background: #66BB6A;
+  width: 90%;
+}
+
+.bar-144p {
+  background: #66BB6A;
+  width: 10%;
+}
+
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.intro {
+    padding: 60px 20px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.problem-solution {
+    background: #2d2d2d;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.problem h3, .solution h3 {
+    color: #4CAF50;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.problem p, .solution p {
+    font-size: 1.1em;
+    margin: 0;
+}
